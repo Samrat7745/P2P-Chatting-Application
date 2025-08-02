@@ -4,13 +4,13 @@ A lightweight Python-based peer-to-peer (P2P) encrypted messaging app that uses 
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 End-to-end encrypted messaging using AES (CBC mode)
-- 🧠 Secure key generation with Diffie-Hellman Key Exchange
-- 🌐 P2P connection without permanent centralized servers
-- 📝 Logs connected peer IPs and names in `peers.txt` for later use
-- 🔄 Auto-reconnect attempts for clients waiting on host
+-  End-to-end encrypted messaging using AES (CBC mode)
+-  Secure key generation with Diffie-Hellman Key Exchange
+-  P2P connection without permanent centralized servers
+-  Logs connected peer IPs and names in `peers.txt` for later use
+-  Auto-reconnect attempts for clients waiting on host
 
 ---
 
@@ -23,7 +23,7 @@ A lightweight Python-based peer-to-peer (P2P) encrypted messaging app that uses 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 SecureP2PChat/
 │
@@ -33,7 +33,7 @@ SecureP2PChat/
 ├── peers.txt         # Log of connected peer IPs and names
 └── README.md         # Project documentation
 
-## 🚀 How It Works
+##  How It Works
 
 This project implements a secure peer-to-peer (P2P) messaging system with end-to-end encryption, using a mediator server for peer discovery and initial connection setup.
 
@@ -58,7 +58,7 @@ This project implements a secure peer-to-peer (P2P) messaging system with end-to
 5. **Logging Peers**  
    Each time a new peer connects, their IP and name are logged in `peers.txt` for later reference.
 
-✅ No messages pass through the server — all communication is encrypted and direct between peers.
+ No messages pass through the server — all communication is encrypted and direct between peers.
 
 ## ⚙️ How to Set Up
 
